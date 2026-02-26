@@ -4,12 +4,15 @@
   "description": "A full-stack Task Management application built with Node.js backend and React frontend using MongoDB for data storage and JWT for authentication.",
   "main": "index.js",
   "scripts": {
-     "server": "cd backend && npm start",
+    "server": "cd backend && npm start",
     "client": "cd frontend && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "install-all": "npm install && cd client && npm install"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
 }
